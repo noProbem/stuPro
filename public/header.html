@@ -1,0 +1,215 @@
+<link rel="stylesheet" href="../css/common.css" />
+<link rel="stylesheet" href="../css/public/header.css" />
+<div class="header">
+  <div class="clearfix p-r">
+    <h1 class="fl">
+      <a href="../index.html">
+        <img src="../images/logo.png" alt="" style="display: none" />
+        <img src="../images/logo2.png" alt="" />
+      </a>
+    </h1>
+    <ul class="fr d-flex flex-wrap p-r header-ul">
+      <li data-menuanchor="banner" class="mlr20 p-r ab">
+        <a href="Industrial.html" class="color-f fs16 d-i-b p-r line">
+          产业生态
+        </a>
+        <ul class="p-a clearfix header_list p-f">
+          <li class="fl"><a href="Industrial.html">大健康产业</a></li>
+          <li class="fl"><a href="../industry.html">能源互联网产业</a></li>
+          <li class="fl"><a href="../new.html">新材料产业</a></li>
+          <li class="fl"><a href="Industrial.html">工业园产业</a></li>
+          <li class="fl"><a href="Industrial.html">其他产业</a></li>
+        </ul>
+      </li>
+      <li data-menuanchor="bussiness" class="mlr20">
+        <a href="../Global.html" class="color-f fs16 d-i-b p-r line">
+          全球华立
+        </a>
+        <ul class="p-a clearfix header_list p-f">
+          <li class="fl"><a href="../new.html">产品“走出去”</a></li>
+          <li class="fl"><a href="../industry.html">产业“走出去”</a></li>
+          <li class="fl"><a href="../new.html">国际产能合作</a></li>
+        </ul>
+      </li>
+      <li data-menuanchor="global" class="mlr20">
+        <a href="enter.html" class="color-f fs16 d-i-b p-r line"> 走进华立 </a>
+        <ul class="clearfix header_list p-f">
+          <li class="fl"><a href="##">印象华立</a></li>
+          <li class="fl"><a href="##">发展历程</a></li>
+          <li class="fl"><a href="##">企业文化</a></li>
+          <li class="fl"><a href="##">联系我们</a></li>
+        </ul>
+      </li>
+      <li data-menuanchor="news_search" class="mlr20">
+        <a href="Brand_center.html" class="color-f fs16 d-i-b p-r line">
+          品牌中心
+        </a>
+        <ul class="p-a clearfix header_list p-f">
+          <li class="fl"><a href="##">品牌诠释</a></li>
+          <li class="fl"><a href="##">品牌动态</a></li>
+          <li class="fl"><a href="##">下载中心</a></li>
+          <li class="fl"><a href="##">公式公告</a></li>
+        </ul>
+      </li>
+      <li data-menuanchor="news" class="mlr20">
+        <a href="construction.html" class="color-f fs16 d-i-b p-r line">
+          党群建设
+        </a>
+        <ul class="p-a clearfix header_list p-f">
+          <li class="fl"><a href="##">组织概括</a></li>
+          <li class="fl"><a href="##">党群建设</a></li>
+          <li class="fl"><a href="##">社会责任</a></li>
+        </ul>
+      </li>
+      <li data-menuanchor="banner" class="mlr20">
+        <a href="../join.html" class="color-f fs16 d-i-b p-r line">
+          加入华立
+        </a>
+        <ul class="p-a clearfix header_list p-f">
+          <li class="fl"><a href="##">组织架构</a></li>
+          <li class="fl"><a href="##">人才发展</a></li>
+          <li class="fl"><a href="##">社会招聘</a></li>
+          <li class="fl"><a href="##">校园招聘</a></li>
+          <li class="fl"><a href="##">国际招聘</a></li>
+        </ul>
+      </li>
+      <li class="plr20 p-r english">
+        <span></span>
+        <a href="" class="color-f fs16 d-i-b mr10">中</a>
+        <a href="" class="color-f fs16 d-i-b">EN</a>
+        <span></span>
+      </li>
+      <li class="plr20">
+        <a href="" class="color-f fs16 d-i-b">OA办公系统</a>
+      </li>
+      <li class="pl20 search p-r">
+        <a href="">
+          <span></span>
+          <img src="../images/search.png" alt="" style="display: none" />
+          <img src="../images/search2.png" alt="" />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<script>
+  // 点击头部导航栏中的子菜单切换
+  window.onload = function () {
+    $(".header-ul > li:eq(2) ul li a").click(function () {
+      window.location = "../enter.html#enter_ul";
+      $("#enter_ul ul li")
+        .removeClass("active")
+        .eq($(this).parent().index())
+        .addClass("active");
+      $(".enter_container").hide().eq($(this).parent().index()).show();
+    });
+    $(".header-ul > li:eq(3) ul li a").click(function () {
+      window.location = "../Brand_center.html#Brand_ul";
+      $("#Brand_ul ul li")
+        .removeClass("active")
+        .eq($(this).parent().index())
+        .addClass("active");
+      $(".Brand_container").hide().eq($(this).parent().index()).show();
+    });
+    $(".header-ul > li:eq(4) ul li a").click(function () {
+      window.location = "../construction.html#construction_ul";
+      $("#construction_ul ul li")
+        .removeClass("active")
+        .eq($(this).parent().index())
+        .addClass("active");
+      $(".construction_container").hide().eq($(this).parent().index()).show();
+    });
+    $(".header-ul > li:eq(5) ul li a").click(function () {
+      window.location = "../join.html#join_ul";
+      $("#join_ul ul li")
+        .removeClass("active")
+        .eq($(this).parent().index())
+        .addClass("active");
+        $(".Brand_container").hide().eq($(this).parent().index()).show();
+    });
+  };
+  $(function () {
+    // 滚动条滑动 100 变化 头部的样式
+    $(window).on("scroll", function () {
+      var scrollTop = $(this).scrollTop();
+      if (scrollTop > 100) {
+        $(".header").css({
+          background: "#fff",
+          "-webkit-box-shadow": "0px 3px 10px #ccc",
+          "-moz-box-shadow": "0px 3px 10px #ccc",
+          boxShadow: "0px 3px 10px #ccc",
+          transition: ".5s",
+        });
+        $(".header ul li a").css({
+          color: "#666",
+        });
+        $(".header_list").css({
+          background: "#efefef",
+        });
+        $(".header ul li .line").css({
+          color: "#666",
+        });
+        $(".header_list li a").css({
+          color: "#666",
+        });
+        $(".header h1 img:eq(0)")
+          .css({
+            display: "inline-block",
+          })
+          .next()
+          .css({
+            display: "none",
+          });
+        $(".header span").css({
+          background: "#666",
+        });
+        $(".search img:eq(0)")
+          .css({
+            display: "inline-block",
+          })
+          .next()
+          .css({
+            display: "none",
+          });
+      } else {
+        $(".header_list").css({
+          background: "rgba(0, 0, 0, 0.2)",
+        });
+        $(".header ul li a").css({
+          color: "#fff",
+        });
+        $(".header_list li a").css({
+          color: "#fff",
+        });
+        $(".header").css({
+          background: "transparent",
+          "-webkit-box-shadow": "none",
+          "-moz-box-shadow": "none",
+          boxShadow: "none",
+        });
+        $(".header ul li .line").css({
+          color: "#fff",
+        });
+        $(".header h1 img:eq(0)")
+          .css({
+            display: "none",
+          })
+          .next()
+          .css({
+            display: "inline-block",
+          });
+        $(".header span").css({
+          background: "#fff",
+        });
+        $(".search img:eq(0)")
+          .css({
+            display: "none",
+          })
+          .next()
+          .css({
+            display: "inline-block",
+          });
+      }
+    });
+  });
+</script>

@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="../css/common.css" />
+<link rel="stylesheet" href="../css/public/gotoTop.css" />
+
+<a href="##" class="gotoTop">
+  <img src="../images/back_top.png" alt="" />
+</a>
+<script>
+  $(function () {
+    $(".gotoTop").hide();
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 600) {
+        $(".gotoTop").show();
+      } else {
+        $(".gotoTop").hide();
+      }
+    });
+    $(".gotoTop").on("click", function () {
+      $("html, body").animate(
+        {
+          scrollTop: 0,
+        },
+        400
+      );
+    });
+  });
+</script>

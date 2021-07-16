@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页</title>
+    <!-- 引入fullPage -->
+    <link rel="stylesheet" href="css/assembly/jquery.fullPage.css" />
+    <!-- 引入轮播图 -->
+    <link rel="stylesheet" href="css/assembly/swiper-bundle.min.css" />
+    <!-- 引入动画 -->
+    <link rel="stylesheet" href="css/assembly/animate.min.css" />
+    <link rel="stylesheet" href="css/assembly/myAnimate.css" />
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- 头部开始 -->
+    <header id="header"></header>
+    <!-- 头部结束 -->
+    <!-- 头部导航开始 -->
+    <div class="hea clearfix plr80 p-f b-border-box">
+      <div class="fl menu">
+        <a class="block" href=""><img src="images/index/menu.png" alt="" /></a>
+      </div>
+      <h1 class="fl logo p-a">
+        <a href="" class="block"><img src="images/index/logo.png" alt="" /></a>
+      </h1>
+      <div class="fr">
+        <ul class="d-flex flex-wrap">
+          <li class="mr20"><a class="block fs14" href="">OA办公系统</a></li>
+          <li class="mr20"><a class="block fs14" href="">联系我们</a></li>
+          <li class="mr20"><a class="block fs14" href="">站点地图</a></li>
+          <li>
+            <a class="block fs14" href=""
+              ><img src="images/index/search.png" alt="" />搜索</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 头部导航结束 -->
+    <!-- 侧边导航开始 -->
+    <nav class="aside p-f">
+      <div class="aside_top p-r d-flex flex-wrap">
+        <ul class="d-flex flex-wrap">
+          <li class="mr40">
+            <a href="" class="d-i-b d-flex flex-wrap color-f">
+              <div class="mr5"><img src="images/index/home.png" alt="" /></div>
+              <div><span>华立集团</span></div>
+            </a>
+          </li>
+          <li class="mr40">
+            <a href="" class="d-i-b d-flex flex-wrap color-f">
+              <div class="mr5"><img src="images/index/dw.png" alt="" /></div>
+              <div><span>联系我们</span></div>
+            </a>
+          </li>
+        </ul>
+        <div class="close p-a">
+          <img src="images/index/close.png" alt="" />
+        </div>
+      </div>
+      <div class="aside_bottom clearfix">
+        <ul class="aside_bottom_l fl">
+          <li class="p-r c-pointer">
+            <a href="Industrial.html" class="color-f d-i-b">
+              <div class="mb25"><img src="images/index/yy.png" alt="" /></div>
+              <div><span class="fs18">大健康产业</span></div>
+            </a>
+            <div class="bg p-a"></div>
+          </li>
+          <li class="p-r c-pointer">
+            <a href="industry.html" class="color-f d-i-b">
+              <div class="mb25"><img src="images/index/xcl2.png" alt="" /></div>
+              <div><span class="fs18">能源物联网产业</span></div>
+            </a>
+            <div class="bg p-a"></div>
+          </li>
+          <li class="p-r c-pointer">
+            <a href="new.html" class="color-f d-i-b">
+              <div class="mb25"><img src="images/index/ny.png" alt="" /></div>
+              <div><span class="fs18">新材料产业</span></div>
+            </a>
+            <div class="bg p-a"></div>
+          </li>
+          <li class="p-r c-pointer">
+            <a href="Industrial.html" class="color-f d-i-b">
+              <div class="mb25"><img src="images/index/tz.png" alt="" /></div>
+              <div><span class="fs18">工业园产业</span></div>
+            </a>
+            <div class="bg p-a"></div>
+          </li>
+          <li class="p-r c-pointer">
+            <a href="Industrial.html" class="color-f d-i-b">
+              <div class="mb25"><img src="images/index/qt.png" alt="" /></div>
+              <div><span class="fs18">其他产业</span></div>
+            </a>
+            <div class="bg p-a"></div>
+          </li>
+        </ul>
+        <ul class="aside_bottom_r fl b-border-box">
+          <li>
+            <a href="Industrial.html" class="color-f block fs18">产业生态</a>
+          </li>
+          <li><a href="Global.html" class="color-f block fs18">全球华立</a></li>
+          <li><a href="enter.html" class="color-f block fs18">走进华立</a></li>
+          <li>
+            <a href="Brand_center.html" class="color-f block fs18">品牌中心</a>
+          </li>
+          <li>
+            <a href="construction.html" class="color-f block fs18">党群建设</a>
+          </li>
+          <li><a href="join.html" class="color-f block fs18">加入华立</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- 侧边导航结束 -->
+    <!-- 内容开始 -->
+    <main>
+      <div id="fullpage">
+        <div class="section section1 active p-r">
+          <div class="slide">
+            <div
+              class="banner_bg hidden-xs"
+              style="
+                background: url('images/index/index-banner.jpg') center center /
+                  cover no-repeat;
+              "
+            ></div>
+          </div>
+          <div class="slide p-r">
+            <video
+              class="hidden-xs"
+              x5-playsinline
+              playsinline
+              webkit-playsinline
+              src="video/index.mp4"
+              loop
+              muted
+              autoplay
+            ></video>
+            <div class="p-a slide-text text-center color-f">
+              <h3 class="fs60 font-bolder">
+                守护绿色家园<span>·</span>分享健康生活
+              </h3>
+              <h5 class="fs26 font-bolder">
+                Protect the green homeland Share a healthy life
+              </h5>
+              <h6 class="fs22 mt40">
+                以生态化场景、平台化思维，打造华立大健康产业生态
+              </h6>
+              <a href="" class="fs16 d-i-b mt40 p-r font-bolder"
+                >Read more about Holley
+                <img src="images/index/right.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="slide">
+            <div
+              class="banner_bg hidden-xs"
+              style="
+                background: url('images/index/index-banner22.jpg') center center /
+                  cover no-repeat;
+              "
+            ></div>
+            <img src="images/index/index-banner2.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <div
+              class="banner_bg hidden-xs"
+              style="
+                background: url('images/index/index-banner33.jpg') center center /
+                  cover no-repeat;
+              "
+            ></div>
+            <img src="images/index/index-banner3.jpg" alt="" />
+          </div>
+          <div
+            class="swiper-con p-a text-center color-f c-pointer b-border-box o-hidden wow animate slideInLeft"
+            data-wow-delay="400ms"
+            style="
+              visibility: visible;
+              animation-delay: 400ms;
+              animation-name: slideInLeft;
+            "
+          >
+            <img src="images/index/down2.png" alt="" class="text-middle" />
+            了解华立集团 More
+          </div>
+        </div>
+        <div class="section section2 text-center o-hidden">
+          <div class="section2_img">
+            <div
+              style="
+                background: url(images/index/section1.jpg) center / cover
+                  no-repeat;
+              "
+            ></div>
+            <div
+              class="op-0"
+              style="
+                background: url(images/index/section2.jpg) center / cover
+                  no-repeat;
+              "
+            ></div>
+            <div
+              class="op-0"
+              style="
+                background: url(images/index/section3.jpg) center / cover
+                  no-repeat;
+              "
+            ></div>
+            <div
+              class="op-0"
+              style="
+                background: url(images/index/section4.jpg) center / cover
+                  no-repeat;
+              "
+            ></div>
+            <div
+              class="op-0"
+              style="
+                background: url(images/index/section5.jpg) center / cover
+                  no-repeat;
+              "
+            ></div>
+          </div>
+          <div class="section_text">
+            <h3 class="fs48 color-f mb5 op-0">BUSINESS</h3>
+            <h4 class="fs30 color-f op-0">产业生态</h4>
+            <p class="color-f mt16 fs18 op-0 p1">
+              <strong class="fs24 font-bolder">华立</strong>
+              是以华立集团股份有限公司为母体、<br />多个产业集团公司组成的
+              <br />
+              <br /><strong>多元化投资发展</strong> 的民营企业集团，<br />专注于
+              <strong>实业经营、产业投资与整合。</strong>
+            </p>
+            <div class="section2_container plr80 b-border-box">
+              <div class="section2_container_container clearfix">
+                <div class="section2_left fl p-r">
+                  <div class="top clearfix">
+                    <a href="Industrial.html" class="fr a1 op-0">
+                      <div class="section2_left_center p-r">
+                        <div class="section2_left_center_center p-a">
+                          <div class="bg bg1 p-a op-1"></div>
+                          <div class="bg bg2 p-a op-0"></div>
+                          <div class="color-f bg-text">
+                            <img src="images/index/index1.png" alt="" />
+                            <p class="mt30 fs24 font-bolder">大健康产业</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="bottom clearfix mt20">
+                    <a href="Industrial.html" class="fl a2 op-0">
+                      <div class="section2_left_center p-r">
+                        <div class="section2_left_center_center p-a">
+                          <div class="bg bg1 p-a op-0"></div>
+                          <div class="bg bg2 p-a op-1"></div>
+                          <div class="color-f bg-text">
+                            <img src="images/index/bottom_left.png" alt="" />
+                            <p class="fs18 font-bolder">其他</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="Industrial.html" class="fl a3 op-0">
+                      <div class="section2_left_center p-r">
+                        <div class="section2_left_center_center p-a">
+                          <div class="bg bg1 p-a op-0"></div>
+                          <div class="bg bg2 p-a op-1"></div>
+                          <div class="bg-text">
+                            <img src="images/index/bottom_right2.png" alt="" />
+                            <p class="mt30 fs24">能源物联网产业</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="section2_right fl p-r">
+                  <div class="top p-r">
+                    <a href="Industrial.html" class="p-a a4 op-0">
+                      <div class="section2_left_center p-r">
+                        <div class="section2_left_center_center p-a">
+                          <div class="bg bg1 p-a op-0"></div>
+                          <div class="bg bg2 p-a op-1"></div>
+                          <div class="bg-text">
+                            <img src="images/index/right_top1.png" alt="" />
+                            <!-- <img src="images/index/right_top2.png" alt="" /> -->
+                            <p class="mt30 fs24">新材料产业</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="bottom mt20 p-r">
+                    <a href="Industrial.html" class="a5 op-0 p-a">
+                      <div class="section2_left_center p-r">
+                        <div class="section2_left_center_center p-a">
+                          <div class="bg bg1 p-a op-0"></div>
+                          <div class="bg bg2 p-a op-1"></div>
+                          <div class="color-f bg-text">
+                            <img src="images/index/right_bottom.png" alt="" />
+                            <p class="fs18 font-bolder">工业园产业</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section3 p-r clearfix text-center">
+          <div class="section3_title p-a op-0">
+            <a href="" class="color-f">
+              <h4 class="fs48 mb5">GLOBAL HOLLEY</h4>
+              <span class="fs30">全球华立</span>
+            </a>
+          </div>
+          <div class="section3_div section3_left fl p-r c-pointer">
+            <a href="new.html" class="d-i-b color-f">
+              <div class="left_img">
+                <img src="images/index/index_left.jpg" alt="" />
+              </div>
+              <div class="left_txt p-a op-0">
+                <h5 class="fs30 font-bolder">产品"走出去"</h5>
+                <span class="fs18 mt30 d-i-b">全球网络</span>
+                <a href="new.html" class="mt200 d-i-b more"
+                  ><span>了解更多</span></a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="section3_div section3_center fl p-r c-pointer">
+            <a href="industry.html" class="d-i-b color-f">
+              <div class="left_img">
+                <img src="images/index/index_center.jpg" alt="" />
+              </div>
+              <div class="left_txt p-a op-0">
+                <h5 class="fs30 font-bolder">产品"走出去"</h5>
+                <span class="fs18 mt30 d-i-b">海外工厂</span>
+                <a href="industry.html" class="mt200 d-i-b more"
+                  ><span>了解更多</span></a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="section3_div section3_right fl p-r">
+            <a href="new.html" class="d-i-b color-f">
+              <div class="left_img">
+                <img src="images/index/index_right.png" alt="" />
+              </div>
+              <div class="left_txt p-a op-0">
+                <h5 class="fs30 font-bolder">国际产能合作</h5>
+                <span class="fs18 mt30 d-i-b">境外工业园</span>
+                <a href="new.html" class="mt200 d-i-b more"
+                  ><span>了解更多</span></a
+                >
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="section section4 text-center plr80">
+          <div class="section3_title mb45 op-0">
+            <a href="" class="color-f">
+              <h4 class="fs32 mb5">LATEST NEWS</h4>
+              <span class="fs30">品牌动态</span>
+            </a>
+          </div>
+          <ul>
+            <li class="mr20 d-i-b op-0">
+              <a href="Brand_center.html">
+                <div class="o-hidden list_img">
+                  <img src="images/index/section6.jpg" alt="" />
+                </div>
+                <div class="list_text text-left">
+                  <img
+                    src="images/index/right2.png"
+                    alt=""
+                    class="d-i-b mr10"
+                  />
+                  <h6 class="d-i-b fs14 color-9">
+                    媒体报道｜一位浙商的思考：疫情中制造业应高度重视供应链安全
+                  </h6>
+                </div>
+              </a>
+            </li>
+            <li class="mr20 d-i-b op-0">
+              <a href="Brand_center.html">
+                <div class="o-hidden list_img">
+                  <img src="images/index/section7.jpg" alt="" />
+                </div>
+                <div class="list_text text-left">
+                  <img
+                    src="images/index/right2.png"
+                    alt=""
+                    class="d-i-b mr10"
+                  />
+                  <h6 class="d-i-b fs14 color-9">
+                    北美华富山工业园又将迎来三家行业龙头企业入驻！
+                  </h6>
+                </div>
+              </a>
+            </li>
+            <li class="d-i-b op-0">
+              <a href="Brand_center.html">
+                <div class="o-hidden list_img">
+                  <img src="images/index/section8.jpg" alt="" />
+                </div>
+                <div class="list_text text-left">
+                  <img
+                    src="images/index/right2.png"
+                    alt=""
+                    class="d-i-b mr10"
+                  />
+                  <h6 class="d-i-b fs14 color-9">
+                    董倩与汪力成对话：国际融合力
+                  </h6>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <a
+            href="Brand_center.html"
+            class="section4_a d-i-b mt30 color-f fs14 p-r o-hidden op-0"
+          >
+            了解更多
+          </a>
+        </div>
+      </div>
+    </main>
+    <!-- 内容结束 -->
+    <!-- 引入jq -->
+    <script src="js/public/jquery-3.5.1.min.js"></script>
+    <!-- 引入fullPage -->
+    <script src="js/assembly/jquery.fullPage.min.js"></script>
+    <!-- 引入轮播图 -->
+    <script src="js/assembly/swiper-bundle.min.js"></script>
+    <!-- 引入wow -->
+    <script src="js/assembly/wow.min.js"></script>
+    <!--公共js -->
+    <script src="js/public/public.js"></script>
+    <!-- 引入 首页 js -->
+    <script src="js/index.js"></script>
+    <script>
+      new WOW().init(); 
+    </script>
+  </body>
+</html>

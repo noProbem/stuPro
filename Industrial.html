@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>产业生态</title>
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/assembly/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="" href="css/assembly/animate.min.css">
+    <!-- 引入产业生态页面 -->
+    <link rel="stylesheet" href="css/Industrial.css" />
+     <!-- 轮播图 -->
+     <style>
+        html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper{
+      width: calc(50% - 10px);
+      height: 380px;
+      border: 1px solid #dddddd;
+      box-sizing: border-box;
+    }
+    .swiper .swiper-slide span{
+      position: absolute;
+      bottom: 10%;
+      color: #999999;
+      font-size: 16px;
+    }
+    .swiper-pagination-bullet{
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      background: #dfdfdf;
+      opacity: 1;
+    }
+    .swiper-pagination-bullet-active{
+      background: #ea5404;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+      z-index: 9;
+      text-align: center;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      width: 42px;
+      height: 60px;
+      line-height: 60px;
+      background-color: #595656;
+      border-radius: 5px 0 0 5px;
+      color: #fff;
+      opacity: 0;
+      transition: .2s linear;
+    }
+    .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after{
+      font-size: 30px;
+    }
+    .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
+      font-size: 30px;
+    }
+    .swiper:hover .swiper-button-prev,
+    .swiper:hover .swiper-button-next{
+      opacity: 1;
+      transition: .2s linear;
+    }
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover{
+      background: #ea5404;
+      transition: .2s linear;
+    }
+    </style>
+  </head>
+  <body class="b-color-f">
+    <!-- ================================== 头部开始 ================================== -->
+    <header id="header"></header>
+    <!-- ================================== 头部结束 ================================== -->
+
+    <!-- ================================== 内容开始 ================================== -->
+    <main id="main" class="p-r o-hidden">
+      <!-- 轮播开始 -->
+      <div class="inner_banner p-r">
+        <img src="../images/Industrial.jpg" alt="" />
+        <div data-wow-delay=".5s" data-wow-duration="1s" class="wow bounceIn inner_banner_title p-a fs40 color-f text-center">
+          <h3 class="mb5">"HEALTH RELATED"INDUSTRY</h3>
+          <h4 class="fs30">大健康产业</h4>
+        </div>
+      </div>
+      <!-- 轮播结束 -->
+
+      <!-- 内容开始 -->
+      <div class="p-r Industrial_ul color-f fs18">
+        <ul class="p-a d-flex flex-wrap plr80 b-border-box text-center">
+          <li class="active">健康药品</li>
+          <li>健康医疗</li>
+          <li class="border-right-0">健康食品</li>
+        </ul>
+      </div>
+      <!-- 健康药品 -->
+      <div class="Industrial_container plr80 mb125">
+        <div class="Industrial_drugs mt20 pt40 mb28">
+          <img src="../images/Industrial/drugs/Industrial_drugs1.jpg" alt="" />
+        </div>
+        <div class="Industrial_container_swiper clearfix">
+          <div class="fl swiper">
+            <!-- Swiper -->
+            <div class="swiper-container" dir="rtl">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs2.jpg"
+                    alt=""
+                  /><span>三七系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs3.jpg"
+                    alt=""
+                  /><span>青蒿系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs4.jpg"
+                    alt=""
+                  /><span>天麻系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs5.jpg"
+                    alt=""
+                  /><span>昆中药</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs6.jpg"
+                    alt=""
+                  /><span>昆中药大健康</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs7.jpg"
+                    alt=""
+                  /><span>贝克诺顿</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs10.jpg"
+                    alt=""
+                  /><span>医院系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs11.jpg"
+                    alt=""
+                  /><span>龙社大健康系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs12.jpg"
+                    alt=""
+                  /><span>国药精品系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs13.jpg"
+                    alt=""
+                  /><span>龙社产品集合</span>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Navigation -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <div class="Industrial_text ml20 fl">
+            <h4 class="fs18 font-bolder text-left mtb25">
+              昆药集团成立于1951年3月；<br />
+              2000年12月，在上海证券交易所上市；<br />
+              2002年，华立集团入主昆药集团。
+            </h4>
+            <p class="fs16 color-6 mt20 mb28">
+              <span>
+                昆药集团
+                <span> （ </span>
+              </span>
+              <span> SH&nbsp; </span>
+              <span>600422）</span>
+              拥有深厚的专业制药经验，是国家重点高新技术企业、中国医药工业百强企业。自有品牌络泰®、天眩清®Artemedine®、Artem®、Arco®等享誉国内外。集药物研发、生产、销售、商业批发和国际营销为一体，形成了以自主天然植物药为主，涵盖中药、化学药和医药流通领域的业务格局。
+            </p>
+          </div>
+        </div>
+        <p class="mt30 mb28 color-6 text-left fs16">
+          在华立大健康产业发展战略中，昆药通过自主研发创新、合作创新研究、国际投资研究，在糖尿病、心脑血管、癌症、骨科、妇科五大领域，以昆药、昆中药、贝克诺顿、昆药商业四大品牌，合力打造聚焦心脑血管疾病，专注慢病治疗领域的创新型、国际化药品提供商。
+        </p>
+        <img
+          src="../images/Industrial/drugs/Industrial_drugs8.jpg"
+          alt=""
+          class="mb28"
+        />
+        <h4 class="mb28 text-left font-bolder fs18">
+          更多昆药集团内容点击查看：
+          <a href="http://www.kpc.com.cn"> http://www.kpc.com.cn </a>
+        </h4>
+        <img
+          src="../images//Industrial/drugs/Industrial_drugs9.jpg"
+          alt=""
+          class="mt80 mb28"
+        />
+        <div class="Industrial_container_swiper clearfix Industrial_container_swiper2">
+          <div class="Industrial_text fl color-6 b-border-box">
+            <h4 class="fs18 font-bolder text-left mtb25">
+              健民集团始创于明崇祯十年（1637年），原名“叶开泰”；<br />
+              2004年在上海证券交易所上市； <br />
+              2005年，华立集团入主健民集团。<br />
+            </h4>
+            <p class="fs16 color-6 mt20 mb28">
+              <span>
+                健民集团
+                <span>（</span>
+              </span>
+              <span>SH &nbsp; </span>
+              <span>600976 ）</span>
+              ，以发展中医药为核心，以儿科产品为特色，已成为全国重点中药企业和小儿用药生产基地。公司为中华老字号企业，拥有“健民”和“龙牡”两大现代品牌和“叶开泰”老字号品牌，综合实力跻身全国医药企业百强之列。
+              <p class="mt20 mb28">
+                在华立大健康产业发展战略中，健民集团以中药饮片为着力点，向上延伸至道地药材，向下延伸至中医诊疗服务，平行延展至C2M中医“智”造。深耕存量业务，布局新兴增量业务，整合产业资源，重构中医药生态，以最终实现“让中医药回归为生活方式”的愿景。
+              </p>
+            </p>
+          </div>
+          <div class="swiper fl b-border-box">
+            <!-- Swiper -->
+            <div class="swiper-container" dir="rtl">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs2.jpg"
+                    alt=""
+                  /><span>三七系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs3.jpg"
+                    alt=""
+                  /><span>青蒿系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs4.jpg"
+                    alt=""
+                  /><span>天麻系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs5.jpg"
+                    alt=""
+                  /><span>昆中药</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs6.jpg"
+                    alt=""
+                  /><span>昆中药大健康</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs7.jpg"
+                    alt=""
+                  /><span>贝克诺顿</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs10.jpg"
+                    alt=""
+                  /><span>医院系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs11.jpg"
+                    alt=""
+                  /><span>龙社大健康系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs12.jpg"
+                    alt=""
+                  /><span>国药精品系列</span>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../../images/Industrial/drugs/Industrial_drugs13.jpg"
+                    alt=""
+                  /><span>龙社产品集合</span>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Navigation -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+        <h4 class="mt28 text-left font-bolder fs18">
+          更多健民集团内容点击查看：
+          <a href="http://www.whjm.com/ "> http://www.whjm.com/ </a>
+        </h4>
+      </div>
+      <!-- 健康医疗 -->
+      <div class="Industrial_container plr80 mb125 mb100 none">
+        <div class="Industrial_drugs mt20 pt40 mb28">
+          <h4 class="d-i-b color-f fs18 text-left">华方医护</h4>
+          <img src="../images/Industrial/care/Industria_care1.jpg" alt="" />
+        </div>
+        <div class="Industrial_container_swiper clearfix">
+          <div class="Industrial_text fl">
+            <p class="fs16 color-6 mt20 mb28">
+              华方医护（又称华方e护）成立于2015年12月，是一家聚焦基层医疗健康服务，打造新型综合基层诊疗、慢病管理、健康管理、诊前诊后服务的全方位医疗健康服务管家。
+            </p>
+            <p class="mt30 mb28 color-6 text-left fs16"> 
+              在华立大健康产业发展战略中，华方医护聚焦线下诊所、门诊、医院、养老机构的搭建、运营、管理，打造样板、建立标准，逐步覆盖国际品牌认证。以创新“1+30+3+n”模式，打造小病、慢病、养老在社区，急病、大病转医院，康复转回社区的“一站式”医养护服务。
+            </p>
+            <h4 class="mb28 text-left font-bolder fs18">
+			        更多华方医护内容点击查看：
+              <a style="color: #ea5404;" href="http://www.hofoncare.com/index.php">http://www.hofoncare.com/index.php/</a>
+            </h4>
+          </div>
+          <div class="Industrial_img fl ml20 mb28">
+            <img src="../images//Industrial//care/Industria_care2.jpg" alt="">
+          </div>
+        </div>
+        <img
+          src="../images/Industrial/care/Industria_care3.jpg"
+          alt=""
+        />
+      </div>
+      <!-- 健康食品 -->
+      <div class="Industrial_container plr80 mb125 mb100 none">
+        <div class="Industrial_drugs mt20 pt40 mb28">
+          <img src="../images/Industrial/care/Industria_care.png" alt="" />
+        </div>
+      </div>
+      <!-- 内容结束 -->
+    </main>
+    <!-- ================================== 内容结束 ================================== -->
+    <!-- ================================ 返回顶部开始 ================================ -->
+    <div id="gotoTop"></div>
+    <!-- ================================ 返回顶部结束 ================================ -->
+    <!-- ================================== 尾部开始 ================================== -->
+    <footer id="footer"></footer>
+    <!-- ================================== 尾部结束 ================================== -->
+
+    <!-- 引入js -->
+    <script src="js/public/jquery-3.5.1.min.js"></script>
+    <!-- 美丽的滚动条 -->
+    <script src="https://cdn.bootcss.com/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    <!-- 引入轮播图 -->
+    <script src="js/assembly/swiper-bundle.min.js"></script>
+    <!-- 引入wow动画 -->
+    <script src="js/assembly/wow.min.js"></script>
+    <!-- 引入公共js -->
+    <script src="js/public/public.js"></script>
+    <!-- 引入产业生态js -->
+    <script src="js/Industrial.js"></script>
+    <script>
+       new WOW().init();
+        var swiper = new Swiper(".swiper-container", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        initialSlide: 9,
+        autoplay: true,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

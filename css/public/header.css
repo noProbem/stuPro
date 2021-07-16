@@ -1,0 +1,113 @@
+/* 公共类 */
+#header img {
+  vertical-align: middle;
+  display: inline-block;
+}
+#header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 11111;
+}
+.header {
+  padding: 0 80px;
+}
+/* logo */
+.header h1 a {
+  display: inline-block;
+}
+.header h1 img {
+  width: 92px;
+  height: 60px;
+}
+/* 列表 */
+.header  div > ul > li {
+  height: 80px;
+}
+.header  div > ul .English::before {
+  content: "";
+  height: 18px;
+  width: 1px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.header  ul > li span {
+  position: absolute;
+  width: 1px;
+  height: 18px;
+  background-color: #fff;
+  display: inline-block;
+  top: 50%;
+  margin-top: -7px;
+  left: 0;
+}
+.english span:nth-of-type(2) {
+  left: 100%;
+}
+.header  ul > li .line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  margin: auto;
+  width: 0px;
+  height: 2px;
+  background-color: #ea5404;
+  transition: 0.5s;
+}
+.header  ul > li:hover .line::after {
+  width: 100%;
+  transition: 0.5s;
+}
+.header  ul > li.active .line::after {
+  width: 100%;
+  transition: 0.5s;
+}
+.header  ul > li:nth-of-type(1):hover .header_list{
+  display: block;
+} 
+.header  ul > li:nth-of-type(2):hover .header_list{
+  display: block;
+} 
+.header  ul > li:nth-of-type(3):hover .header_list{
+  display: block;
+} 
+.header  ul > li:nth-of-type(4):hover .header_list{
+  display: block;
+} 
+.header  ul > li:nth-of-type(5):hover .header_list{
+  display: block;
+} 
+.header  ul > li:nth-of-type(6):hover .header_list{
+  display: block;
+} 
+.header_list {
+  display: none;
+  height: 50px;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.2);
+  left: 0;
+  padding-left: 35%;
+}
+.header_list li {
+  margin: 0 40px 0 18px;
+  width: auto;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+}
+.header_list li a {
+  color: #fff;
+}
+.header_list li:hover a {
+  color: #ea5404 !important;
+}

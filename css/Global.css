@@ -1,0 +1,201 @@
+body {
+  font-family: "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+.global {
+  background: #010e16;
+}
+/* 全球华立列表 */
+.global .global_list {
+  top: 31%;
+  left: 80px;
+  z-index: 111;
+}
+.global .global_list span {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+/* 全球华立内容 */
+.global .global_container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 320px;
+}
+/* 全球华立 */
+.global .global_top {
+  width: 100%;
+  top: 165px;
+  font-family: "AR";
+  z-index: 111;
+}
+.global .global_top h3 {
+  line-height: 54px;
+}
+.global .global_top h4 {
+  line-height: 42px;
+}
+.global .global_top span {
+  line-height: 34px;
+}
+.global .global_top .global_top_list p {
+  line-height: 42px;
+}
+.global .global_top .global_top_list span {
+  font-family: Arial;
+  color: #ff9c00;
+}
+/* 坐标 */
+.global .global_mao_dot {
+  top: 0;
+  left: 0;
+  animation: bian1 2s linear infinite alternate;
+  -webkit-animation: bian1 2s linear infinite alternate;
+}
+/* 坐标列表 */
+.global .global_map_list {
+  bottom: 90px;
+  left: 40px;
+  z-index: 3;
+}
+.global .global_map_list li {
+  line-height: 20px;
+}
+.global .global_map_list li span {
+  display: inline-block;
+  width: 18px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.global .global_map_dots_list {
+  left: 0;
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+}
+.global .global_map_dot:nth-child(1) {
+  left: 17%;
+  top: 62%;
+}
+.global .global_map_dot:nth-child(2) {
+  left: 75%;
+  top: 51%;
+}
+.global .global_map_dot:nth-child(3) {
+  top: 59%;
+  left: 74%;
+}
+.global .global_map_dot:nth-child(4) {
+  top: 62%;
+  left: 76%;
+}
+.global .global_map_dot:nth-child(5) {
+  left: 62.5%;
+  top: 52%;
+}
+.global .global_map_dot:nth-child(5) p {
+  left: -100px;
+}
+.global .global_map_dot:nth-child(6) {
+  top: 43.5%;
+  left: 69%;
+}
+.global .global_map_dot:nth-child(6) p {
+  left: -80px;
+}
+.global .global_map_dot:nth-child(7) {
+  left: 70%;
+  top: 58%;
+}
+.global .global_map_dot:nth-child(7) p,
+.global .global_map_dot:nth-child(8) p,
+.global .global_map_dot:nth-child(9) p,
+.global .global_map_dot:nth-child(10) p {
+  left: -20px;
+}
+.global .global_map_dot:nth-child(7) .global_map_dot_inner,
+.global .global_map_dot:nth-child(8) .global_map_dot_inner,
+.global .global_map_dot:nth-child(9) .global_map_dot_inner,
+.global .global_map_dot:nth-child(10) .global_map_dot_inner {
+  width: 15px;
+}
+.global .global_map_dot:nth-child(8) {
+  left: 69%;
+  top: 60%;
+}
+.global .global_map_dot:nth-child(9) {
+  left: 77%;
+  top: 57.5%;
+}
+.global .global_map_dot:nth-child(10) {
+  top: 59%;
+  left: 78%;
+}
+.global .global_map_dot:nth-child(11) {
+  left: 56.8%;
+  top: 71%;
+}
+.global .global_map_dot:nth-child(1):hover a {
+  opacity: 1;
+}
+.global .global_map_dot:nth-child(2):hover a {
+  opacity: 1;
+}
+.global .global_map_dot:nth-child(4):hover a {
+  opacity: 1;
+}
+.global .global_map_dot:nth-child(10):hover a {
+  opacity: 1;
+}
+.global .global_map_dot:nth-child(11):hover a {
+  opacity: 1;
+}
+.global .global_map_dot:nth-child(1) a{
+    left: -400%;
+}
+.global .global_map_dot a {
+  color: #fff;
+  display: inline-block;
+  opacity: 0;
+  left: 140%;
+  top: -30px;
+  padding-right: 12px;
+  width: 172px;
+  max-height: 0;
+  transition: 0.5s linear;
+}
+.global .global_map_dot a img {
+  display: block;
+  width: 100%;
+}
+.global .global_map_dot a i {
+  font-style: normal;
+  height: 30px;
+  background: #595656;
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+}
+.global .global_map_dot .global_map_dot_inner .country {
+  left: 3px;
+  right: 0;
+  top: 3px;
+  border-radius: 50%;
+}
+.global .global_map_dot .global_map_dot_name {
+  left: 15px;
+  bottom: 0;
+  width: 110px;
+}

@@ -1,0 +1,99 @@
+/* 公共 */
+html {
+  font-family: "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: normal;
+}
+/* ============================== 尾部 ============================== */
+.footer {
+  background-color: #222;
+}
+/* ============================== 尾部logo ============================== */
+.footer .footer_l {
+  width: 15%;
+  height: 90px;
+}
+.footer .footer_l img {
+  width: 138px;
+  height: 90px;
+}
+/* ============================== 尾部列表 ============================== */
+.footer .footer_l + ul {
+  width: 70%;
+}
+.footer .footer_l + ul > li {
+  width: 16%;
+  display: inline-block;
+  vertical-align: top;
+}
+.footer .footer_l + ul > li h4 a {
+  color: #ffffff;
+  font-size: 18px;
+}
+.footer .footer_l + ul > li h4 span {
+  width: 15px;
+  display: block;
+  height: 2px;
+  background-color: #f39800;
+  margin: 10px 0;
+}
+.footer .footer_l + ul > li ul li {
+  height: 24px;
+  line-height: 24px;
+}
+.footer .footer_l + ul > li ul li a {
+  color: #999;
+  font-size: 14px;
+}
+/* ============================== 二维码 ============================== */
+.footer .footer_r {
+  width: 15%;
+}
+.footer .footer_r .footer_r_top {
+  display: inline-block;
+}
+.footer .footer_r .footer_r_bottom {
+  background: #1b1b1b;
+  line-height: 20px;
+  cursor: pointer;
+  border: 1px solid #211f20;
+  border-radius: 5px;
+}
+.footer .footer_r .footer_r_bottom span {
+  background: #f08000;
+  padding: 0 4px;
+}
+.footer .footer_r ul {
+  width: 150px;
+  left: 5px;
+  bottom: 100%;
+  background: #1b1b1b;
+  z-index: 9;
+  min-width: 100%;
+}
+.footer .footer_r ul a {
+  display: block;
+  width: 100%;
+  line-height: 32px;
+  border-bottom: 1px solid #666;
+  box-sizing: border-box;
+}
+/* ============================== 尾部下半边 ============================== */
+.footer .footer_b{
+  border-top: 1px solid #333;
+}
+.footer .footer_b img {
+  width: 50px;
+}
+.footer .footer_b .we {
+  border-left: 1px solid #666;
+}

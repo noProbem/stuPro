@@ -1,0 +1,563 @@
+/* ============================== 公共 ============================== */
+img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+body {
+  font-family: "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  background: linear-gradient(to bottom, #f7f7f7 90%, #fff 100%);
+}
+/* ======================== main 开始 ======================== */
+/* ========== 健康药品 ========== */
+.inner_banner {
+  z-index: -1;
+  font-family: "AR";
+}
+.inner_banner .inner_banner_title {
+  width: 100%;
+  top: 35%;
+}
+.inner_banner .inner_banner_title h3 {
+  line-height: 46px;
+  font-weight: normal;
+}
+.inner_banner .inner_banner_title h4 {
+  line-height: 46px;
+}
+/* 列表 */
+.enter_ul {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  top: 598px;
+}
+.enter_ul ul {
+  width: 100%;
+  top: -80px;
+}
+.enter_ul li {
+  cursor: pointer;
+  width: calc(100% / 4);
+  background-color: rgba(234, 84, 4, 0.9);
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+}
+.enter_ul li a {
+  color: #fff;
+  display: block;
+}
+.enter_ul li.active a {
+  color: #ea5404;
+  background: #fff;
+}
+/* 内容 */
+.enter_container .enter_drugs {
+  border-top: 1px solid #ddd;
+}
+/* 輪播 */
+h3 {
+  color: #595656;
+  line-height: 34px;
+  position: relative;
+}
+h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 58px;
+  height: 2px;
+  background-color: #ea5404;
+}
+h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+  width: 152px;
+  height: 1px;
+  background-color: #ddd;
+}
+.enter_text small {
+  line-height: 24px;
+  color: #595656;
+  font-family: "AR";
+}
+.enter_text h4 {
+  color: #595656;
+  line-height: 34px;
+}
+.enter_text p {
+  line-height: 32px;
+  color: #595656;
+}
+.enter_container_swiper ul li {
+  width: calc((100% - 160px) / 3);
+}
+.enter_container > img {
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.enter_container_swiper ul li div {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.enter_container_swiper ul li h4 {
+  line-height: 34px;
+  color: #ea5404;
+}
+.enter_container_swiper ul li h4 + p {
+  font-family: Arial;
+  line-height: 34px;
+  color: #595656;
+  opacity: 0.5;
+}
+.enter_container_swiper ul li p {
+  line-height: 34px;
+  color: #595656;
+  font-weight: normal;
+}
+/* ========== 健康医疗 ========== */
+.enter_container .enter_drugs h4 {
+  background: #ea5404;
+  padding: 6px 20px;
+  font-weight: bold;
+  line-height: 34px;
+  margin: 28px 0;
+}
+.enter_container .enter_img {
+  width: calc(50% - 10px);
+}
+/* 综合实力 */
+.enter_strength {
+  background: url(../images/enter/enter4.jpg);
+}
+.enter_strength .enter_strength_img {
+  width: 424px;
+  height: 404px;
+  margin: 40px auto;
+  top: 20px;
+}
+.enter_strength .enter_strength_img img {
+  width: auto;
+  margin: auto;
+}
+.enter_strength .enter_strength_img img:nth-of-type(1) {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9;
+}
+.enter_strength .enter_strength_img img:nth-of-type(2) {
+  left: 0;
+  right: 0;
+  top: -20px;
+}
+.enter_strength .enter_strength_img img:nth-of-type(3) {
+  right: 0px;
+  top: 85px;
+}
+.enter_strength .enter_strength_img img:nth-of-type(4) {
+  right: 60px;
+  bottom: 10px;
+}
+.enter_strength .enter_strength_img img:nth-of-type(5) {
+  left: 60px;
+  bottom: 10px;
+}
+.enter_strength .enter_strength_img img:nth-of-type(6) {
+  left: 0;
+  top: 85px;
+}
+.enter_strength_ul li {
+  width: auto;
+  margin: auto;
+  line-height: 1.42857143;
+}
+.enter_strength_ul li span {
+  font-family: Arial;
+}
+/* 发展历程 */
+.containerTwo {
+  background: url(../images/enter/about3_bg.jpg) center / cover no-repeat;
+}
+.containerTwo .enter_img {
+  margin: 80px auto 0;
+  max-width: 768px;
+}
+.containerTwo .enter_img .bg {
+  animation: rotate 20s infinite linear;
+  -moz-animation: rotate 20s infinite linear;
+  -webkit-animation: rotate 20s infinite linear;
+  -o-animation: rotate 20s infinite linear;
+}
+.containerTwo .enter_img > div {
+  width: 440px;
+  height: 440px;
+  box-sizing: border-box;
+  border: 18px solid #ebeae9;
+  border-radius: 50%;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.containerTwo .enter_img > div div {
+  width: 444px;
+}
+.containerTwo .enter_img > div div img {
+  max-width: 100%;
+  transition: 0.8s linear;
+}
+.containerTwo .enter_img > div div h5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30%;
+  z-index: 10;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  color: #595656;
+}
+.enter_img li {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.enter_img li:nth-of-type(1) {
+  left: 50%;
+  top: 18%;
+}
+.enter_img li:nth-of-type(2) {
+  left: 80%;
+  top: 34%;
+}
+.enter_img li:nth-of-type(3) {
+  left: 80%;
+  top: 64%;
+}
+.enter_img li:nth-of-type(4) {
+  left: 50%;
+  top: 82%;
+}
+.enter_img li:nth-of-type(5) {
+  left: 21%;
+  top: 64%;
+}
+.enter_img li:nth-of-type(6) {
+  left: 21%;
+  top: 33%;
+}
+.enter_img li.active a {
+  width: 200px;
+  height: 200px;
+  transition: 0.2s linear;
+  background-color: #ea5404;
+  border: solid 4px #ff8303;
+}
+.enter_img li.active a h4,
+.enter_img li.active a h5 {
+  color: #fff;
+  transition: 0.2s linear;
+}
+.enter_img li a {
+  transition: 0.2s linear;
+  display: block;
+  width: 160px;
+  height: 160px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: solid 2px #ebeae9;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.enter_img li h4 {
+  font-size: 22px;
+  color: #595656;
+  line-height: 33px;
+}
+.enter_img li h5 {
+  line-height: 42px;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: bold;
+  color: #595656;
+}
+.opacity-0 {
+  opacity: 0;
+  transition: 0.8s linear;
+}
+.containerThree {
+  background-color: #fff;
+}
+.containerThree > ul > li {
+  width: calc((100% - 30px) / 4);
+  background: #f5f5f5;
+  height: 200px;
+  padding: 32px 20px 50px;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+.containerThree > ul > li h4 {
+  color: #ea5404;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  line-height: 34px;
+  height: 34px;
+}
+.containerThree > ul > li h5 {
+  color: #ea5404;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  line-height: 26px;
+  height: 26px;
+}
+.containerThree > ul > li p {
+  line-height: 24px;
+  color: #595656;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+  line-height: 24px;
+  height: 72px;
+}
+.containerThree > ul > li:hover {
+  transition: 0.2s linear;
+  box-shadow: -1px 8px 10px 2px rgba(176, 176, 176, 0.37);
+}
+.containerThree_img img {
+  width: 160px;
+  height: 160px;
+  display: block;
+}
+.containerThree_img span {
+  color: #595656;
+}
+/* 文化活动 */
+.enter_Activity li {
+  width: calc((100% / 3) - 30px);
+  margin: 0 15px;
+  cursor: pointer;
+}
+.enter_Activity li p {
+  height: 66px;
+  line-height: 66px;
+  padding: 0 112px 0 12px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  color: #333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  transition: 0.5s linear;
+}
+.enter_Activity li:hover p {
+  background-color: #ea5404;
+  color: #fff;
+  transition: 0.5s linear;
+}
+.enter_Activity li:hover span {
+  color: #fff;
+  transition: 0.5s linear;
+}
+.enter_Activity li p span {
+  transition: 0.5s linear;
+  position: absolute;
+  right: 12px;
+  top: 0;
+  color: #999;
+}
+/* 线上展示活动 */
+.exhibition {
+  background: url(../images/enter/brand4_bg.jpg) center center / cover no-repeat;
+}
+.exhibition p {
+  letter-spacing: -0.3px;
+}
+.exhibition span {
+  font-family: Arial;
+}
+.exhibition a {
+  width: 280px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #ea5404;
+  border-radius: 30px;
+  margin: auto;
+}
+/* 联系我们 */
+#containerFour .enter_text > div {
+  top: 0;
+  left: 0;
+}
+.enter_text h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 152px;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ddd;
+  margin: auto;
+}
+.enter_text h4::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 58px;
+  height: 2px;
+  background-color: #ea5404;
+}
+#containerFour .enter_text > div .enter_container_1 {
+  padding: 0 100px;
+}
+#containerFour .enter_text > div .enter_container_1 > div {
+  top: 0;
+  width: 960px;
+  height: 100%;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+#containerFour .enter_text .enter_container_1 span {
+  line-height: 34px;
+  color: #595656;
+}
+#containerFour .enter_text .enter_container_1 span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 58px;
+  height: 2px;
+  background-color: #ea5404;
+}
+#containerFour .enter_text .enter_container_1 span::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 152px;
+  height: 1px;
+  bottom: 0;
+  background-color: #ddd;
+}
+#containerFour .enter_text .enter_container_1 p {
+  line-height: 42px;
+  font-weight: 500;
+}
+#containerFour .enter_text .enter_container_1 a {
+  width: 240px;
+  height: 48px;
+  line-height: 48px;
+  background-color: #ea5404;
+  border-radius: 5px;
+}
+/* 公共对接 */
+.docking {
+  position: relative;
+  background: #f3f3f5;
+}
+.docking > div > img {
+  width: 50%;
+  height: 100%;
+  max-width: 100%;
+}
+.docking_text {
+  width: 50%;
+  border-left: 1px solid #e1e1e3;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+.docking_text h3,
+.docking_text h4 {
+  color: #595656;
+}
+.docking_text ul li {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+.docking_text ul li span:nth-of-type(1) {
+  width: 20px;
+  display: inline-block;
+}
+.docking_text h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 152px;
+  height: 1px;
+  left: 0;
+  background-color: #ddd;
+  margin: 0;
+}
+.docking_text h3::before {
+  content: "";
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  width: 58px;
+  height: 2px;
+  background-color: #ea5404;
+}
+/* 地图 */
+.Map {
+  width: 600px;
+  background-color: #fff;
+  box-shadow: 1.5px 2.6px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 50px;
+  z-index: 9;
+  margin: auto;
+}
+.Map h4 {
+  border-bottom: 1px solid #c7c4cc;
+}
+.Map li {
+  line-height: 24px;
+}
+.Map a {
+  width: 280px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #ea5404;
+  border-radius: 30px;
+  margin: auto;
+}
+/* ======================== main 结束 ======================== */

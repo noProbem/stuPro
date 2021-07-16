@@ -1,0 +1,482 @@
+li{
+  cursor: pointer;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+.inner_banner {
+  z-index: -1;
+  font-family: "AR";
+}
+.inner_banner .inner_banner_title {
+  width: 100%;
+  top: 35%;
+}
+.inner_banner .inner_banner_title h3 {
+  line-height: 46px;
+  font-weight: normal;
+}
+.inner_banner .inner_banner_title h4 {
+  line-height: 46px;
+}
+/* 列表 */
+.construction_ul {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  top: 598px;
+}
+.construction_ul ul {
+  width: 100%;
+  top: 1px;
+}
+.construction_ul li {
+  text-align: center;
+  cursor: pointer;
+  width: calc(100% / 3);
+  background-color: rgba(234, 84, 4, 0.9);
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+}
+.construction_ul li a {
+  color: #fff;
+  display: block;
+}
+.construction_ul li.active a {
+  color: #ea5404;
+  background: #fff;
+}
+.container_text {
+  text-align: center;
+}
+.container_text h3 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 34px;
+  color: #595656;
+  position: relative;
+  padding-bottom: 18px;
+}
+.container_text small {
+  font-size: 18px;
+  line-height: 24px;
+  color: #595656;
+  margin-top: 10px;
+  font-family: "AR";
+  display: inline-block;
+}
+.container_text h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 58px;
+  height: 2px;
+  background-color: #ea5404;
+}
+.container_text h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+  width: 152px;
+  height: 1px;
+  background-color: #ddd;
+}
+/* 组织概括 */
+.summary p {
+  width: 820px;
+  color: #595656;
+  margin: auto;
+  line-height: 32px;
+}
+.summary p span {
+  font-family: Arial;
+  font-weight: bold;
+  color: #ea5404;
+}
+/* 华立党组织沿革 */
+.Evolution {
+  border: solid 1px #eee;
+}
+.Evolution_left {
+  width: 50%;
+}
+.Evolution_left img {
+  height: 100%;
+}
+.Evolution_right {
+  width: 50%;
+}
+.Evolution_right ul {
+  color: #595656;
+  overflow-y: scroll;
+  height: 426px;
+}
+.Evolution_right ul li span {
+  width: 160px;
+  display: inline-block;
+}
+.Evolution_right ul li {
+  line-height: 28px;
+}
+.Evolution_right ul li.active {
+  color: #e75509;
+}
+/* 滚动条样式 */
+.Evolution_right ul::-webkit-scrollbar {
+  width: 2px;
+}
+.Evolution_right ul::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #e75509;
+}
+.Evolution_right ul::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.year {
+  background-color: #e75509;
+}
+.year ul {
+  height: 115px;
+}
+.year ul li {
+  position: relative;
+  z-index: 9;
+  height: 100%;
+  width: 50px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.year ul li span {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 18px;
+  position: relative;
+  top: 53%;
+  transition: 0.4s linear;
+}
+.year ul li::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.year ul li::before {
+  content: "";
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  display: block;
+  width: 0;
+  height: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.year ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.5;
+}
+.year ul li:hover::before,
+.year ul li.active::before {
+  width: 50px;
+  height: 50px;
+}
+.year li:hover span,
+.year li.active span {
+  -webkit-transform: translateY(25px);
+  -moz-transform: translateY(25px);
+  -ms-transform: translateY(25px);
+  -o-transform: translateY(25px);
+  transform: translateY(25px);
+  transition: 0.4s linear;
+}
+/* 党建动态 */
+.Trends_img img {
+  border: 4px solid #ebe1d7;
+  width: 180px;
+}
+.Trends_img p {
+  letter-spacing: 6px;
+}
+/* 青春党建的新动态 */
+.dynamic ul li a {
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  color: #333;
+  transition: 0.5s linear;
+}
+.dynamic li a.active {
+  transition: 0.5s linear;
+  background: #e75509;
+  color: #fff;
+}
+.dynamic_text ul li {
+  float: left;
+  width: calc((100% - 64px) / 3);
+  margin: 0 32px 32px 0;
+}
+.dynamic_text ul li:nth-child(3n) {
+  margin-right: 0;
+}
+.dynamic_text ul li {
+  background: #f4f4f4;
+}
+.dynamic_text ul li p {
+  line-height: 24px;
+  padding: 30px;
+  overflow: hidden;
+}
+.dynamic_text ul li span {
+  color: #595656;
+}
+.dynamic_text ul li img {
+  transition: 0.5s linear;
+}
+.dynamic_text ul li:hover img {
+  transform: scale(1.2);
+  transition: 0.5s linear;
+}
+/* 党群下载中心 */
+.masses .masses_center {
+  background: #f4f4f4;
+  font-weight: 600;
+}
+.masses .masses_center ul li span {
+  font-family: Arial;
+  color: #595656;
+  line-height: 25px;
+}
+.masses .masses_center ul li p {
+  line-height: 24px;
+}
+/* 社会责任 */
+.responsibility_text h4 {
+  color: #595656;
+}
+.responsibility_text_p1 {
+  line-height: 32px;
+  color: #595656;
+  width: 880px;
+  margin: 0 auto;
+}
+.responsibility_text_p2 {
+  margin: 30px auto;
+  font-size: 16px;
+  line-height: 32px;
+  width: 88%;
+}
+.responsibility_text_p2 span {
+  color: #ea5404;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 24px;
+}
+.responsibility_text_img {
+  width: 375px;
+  margin: 80px auto 0;
+}
+.responsibility_text_img img:first-child {
+  position: static;
+  display: block;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+.responsibility_text_img img {
+  margin-top: 32px;
+  position: absolute;
+  animation: jump_down2 3s infinite ease-in-out;
+  -moz-animation: jump_down2 3s infinite ease-in-out;
+  -webkit-animation: jump_down2 3s infinite ease-in-out;
+  -o-animation: jump_down2 3s infinite ease-in-out;
+  -webkit-transform: translateY(10%);
+  -moz-transform: translateY(10%);
+  -ms-transform: translateY(10%);
+  -o-transform: translateY(10%);
+  transform: translateY(10%);
+}
+.responsibility_text_img img:nth-child(2) {
+  left: 70%;
+  top: -16%;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.responsibility_text_img img:nth-child(3) {
+  left: -16%;
+  top: 18%;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.responsibility_text_img img:nth-child(4) {
+  left: 8%;
+  top: -28%;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  -o-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+.responsibility_text_img img:nth-child(5) {
+  left: -38%;
+  top: -10%;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -o-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.responsibility_text_img img:nth-child(6) {
+  left: 96%;
+  top: 26%;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.responsibility_text_img img:nth-child(7) {
+  left: 114%;
+  top: -8%;
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  -o-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+/* 轮播图 */
+.responsibility_text_swiper {
+  width: calc(36% - 5px);
+  margin-right: 5px;
+  min-height: 1px;
+  background: #eee;
+  padding: 30px;
+  height: 439px;
+  box-sizing: border-box;
+}
+.responsibility_text_swiper .swiper {
+  width: 100%;
+  height: 100%;
+}
+.responsibility_text_swiper .swiper-container {
+  height: 100%;
+}
+.responsibility_text_swiper:hover .swiper-button-prev,
+.responsibility_text_swiper:hover .swiper-button-next {
+  background: #595656;
+  opacity: 1;
+  color: #fff;
+}
+.responsibility_text_swiper .swiper-button-prev:hover,
+.responsibility_text_swiper .swiper-button-next:hover {
+  background: #ea5404;
+  color: #fff;
+}
+.responsibility_text_swiper .swiper-container .swiper-button-prev {
+  right: 0;
+  width: 42px;
+  height: 60px;
+}
+.responsibility_text_swiper .swiper-container .swiper-button-prev::after {
+  font-size: 25px;
+}
+.responsibility_text_swiper .swiper-container .swiper-button-next::after {
+  font-size: 25px;
+}
+.responsibility_text_swiper .swiper-container .swiper-button-next {
+  left: 0;
+  width: 42px;
+  height: 60px;
+}
+.responsibility_text_swiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.responsibility_text_swiper img {
+  width: 100%;
+  height: 100%;
+}
+.responsibility_img img {
+  overflow: hidden;
+  transition: 0.5s linear;
+}
+.responsibility_img img:hover {
+  transform: scale(1.2);
+  transition: 0.5s linear;
+}
+/* 授人以鱼不如授人以“渔” */
+.responsibility .better p {
+  line-height: 34px;
+  color: #595656;
+}
+.responsibility .better ul li div {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.responsibility .better ul li div span {
+  font-family: Arial;
+  line-height: 34px;
+  color: #ea5404;
+}
+.responsibility .better ul li div p {
+  line-height: 24px;
+  color: #595656;
+}
+.responsibility .better ul li > span {
+  line-height: 34px;
+  color: #595656;
+}
+.responsibility .better ul li > p {
+  line-height: 34px;
+  color: #595656;
+}

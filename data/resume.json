@@ -1,0 +1,74 @@
+[
+	{
+	"resume": {
+		"id": 2,
+		"resumeid": 1,
+		"resumename": "默认简历",
+		"updatetime": "2019-07-23 15:03:11.0"
+	},
+	"parray": [{
+		"projectname": "北京一汽大众销后服务中心",
+		"resumeid": 1,
+		"responsibility": "web前端开发工程师",
+		"description": "负责公司网站前端部分的布局与交互开发",
+		"endtime": "2006-7.06",
+		"starttime": "2019-07-23",
+		"projectid": 1
+	}],
+	"awardstates": "success",
+	"edustates": "success",
+	"selfstates": "success",
+	"skarray": [{
+		"skillid": 33,
+		"resumeid": 1,
+		"skillname": "算法与框架封装",
+		"degree": "精通"
+	}],
+	"earray": [{
+		"educationid": 1,
+		"major": "计算机科学与技术",
+		"resumeid": 1,
+		"edubg": "啊",
+		"university": "北京工业大学",
+		"endtime": "2000-07-23",
+		"starttime": "2004-07-23"
+	}],
+	"userstates": "success",
+	"array": [{
+		"awardsid": 34,
+		"resumeid": 1,
+		"awardsname": "把",
+		"awardtime": "2019-07-23"
+	}],
+	"searray": [{
+		"resumeid": 1,
+		"selfid": 1,
+		"text": "代码强迫证患者，有极强的学习能力！"
+	}],
+	"prostates": "success",
+	"job": {
+		"jobExceptation": "前端开发工程师",
+		"jobcity": "上海",
+		"jobintensionid": 5,
+		"jobtime": "2018-02-24",
+		"jobtype": "程序开发",
+		"resumeid": 1,
+		"salaryExpectation": "IT/互联网/电子商务"
+	},
+	"user": {
+		"address": "北京海淀区温泉",
+		"birthday": "it's a secret!",
+		"headurl": "user11521167088600.jpg",
+		"id": 2,
+		"isshow": 0,
+		"nowaddress": "南京",
+		"password": "222222",
+		"phone": "22222222222",
+		"qq": "123456789",
+		"sex": "男",
+		"status": "11",
+		"username": "盗心的贼"
+	},
+	"skillstates": "success"
+}
+]
